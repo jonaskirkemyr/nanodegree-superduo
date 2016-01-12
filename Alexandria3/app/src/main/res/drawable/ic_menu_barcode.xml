@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SVG created by Zlatko Najdenovski http://pixelbazaar.com/ -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+        android:width="24dp"
+        android:height="24dp"
+        android:viewportWidth="24"
+        android:viewportHeight="24">
+
+    <path
+            android:fillColor="#000000"
+            android:pathData="M23,0H1C0.4,0,0,0.4,0,1v22c0,0.6,0.4,1,1,1h22c0.6,0,1-0.4,1-1V1C24,0.4,23.6,0,23,0z
+M22,22H2V2h20V22z" />
+    <path
+            android:fillColor="#000000"
+            android:pathData="M 4 4 H 6 V 17 H 4 V 4 Z" />
+    <path
+            android:fillColor="#000000"
+            android:pathData="M 7 4 H 8 V 17 H 7 V 4 Z" />
+    <path
+            android:fillColor="#000000"
+            android:pathData="M 9 4 H 10 V 17 H 9 V 4 Z" />
+    <path
+            android:fillColor="#000000"
+            android:pathData="M 14 4 H 15 V 17 H 14 V 4 Z" />
+    <path
+            android:fillColor="#000000"
+            android:pathData="M 16 4 H 17 V 17 H 16 V 4 Z" />
+    <path
+            android:fillColor="#000000"
+            android:pathData="M 18 4 H 20 V 17 H 18 V 4 Z" />
+    <path
+            android:fillColor="#000000"
+            android:pathData="M 11 4 H 13 V 17 H 11 V 4 Z" />
+    <path
+            android:fillColor="#000000"
+            android:pathData="M 4 18 H 6 V 20 H 4 V 18 Z" />
+    <path
+            android:fillColor="#000000"
+            android:pathData="M 14 18 H 16 V 20 H 14 V 18 Z" />
+    <path
+            android:fillColor="#000000"
+            android:pathData="M 7 18 H 8 V 20 H 7 V 18 Z" />
+    <path
+            android:fillColor="#000000"
+            android:pathData="M 17 18 H 18 V 20 H 17 V 18 Z" />
+    <path
+            android:fillColor="#000000"
+            android:pathData="M 19 18 H 20 V 20 H 19 V 18 Z" />
+    <path
+            android:fillColor="#000000"
+            android:pathData="M 9 18 H 13 V 20 H 9 V 18 Z" />
+</vector>

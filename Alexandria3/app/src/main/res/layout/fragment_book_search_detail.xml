@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android = "http://schemas.android.com/apk/res/android"
+        android:orientation = "horizontal"
+        android:layout_width = "fill_parent"
+        android:layout_height = "fill_parent"
+        android:layout_gravity = "center_horizontal|top">
+
+        <LinearLayout android:layout_width = "match_parent"
+                      android:layout_height = "match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                        android:layout_width = "wrap_content"
+                        android:layout_height = "wrap_content"
+                        android:id = "@+id/bookTitle"
+                        android:textSize = "@dimen/head_line"
+                        android:textIsSelectable = "true"
+                        android:textStyle = "bold"
+                        android:paddingRight = "@dimen/activity_horizontal_margin"
+                        />
+
+                <TextView
+                        android:layout_width = "wrap_content"
+                        android:layout_height = "wrap_content"
+                        android:id = "@+id/bookSubTitle"
+                        android:layout_marginTop = "@dimen/activity_vertical_margin"
+                        android:maxLines = "3"
+                        android:ellipsize = "end"/>
+
+
+                <LinearLayout android:layout_width = "wrap_content"
+                              android:layout_height = "wrap_content"
+                        android:orientation="horizontal">
+                        <ImageView
+                                android:layout_width = "wrap_content"
+                                android:layout_height = "wrap_content"
+                                android:id = "@+id/bookCover"
+                                android:contentDescription = "@string/book_cover"
+                                android:layout_gravity="center"/>
+
+                        <TextView
+                                android:layout_width = "wrap_content"
+                                android:layout_height = "wrap_content"
+                                android:id = "@+id/authors"
+                                android:layout_gravity="center_vertical"
+                                android:textSize = "@dimen/small_fontsize"
+                                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                                />
+                </LinearLayout>
+
+
+
+
+
+                <TextView
+                        android:layout_width = "wrap_content"
+                        android:layout_height = "wrap_content"
+                        android:id = "@+id/categories"
+                        android:textSize = "@dimen/small_fontsize"
+                        android:layout_marginTop = "@dimen/activity_vertical_margin"/>
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+    <LinearLayout
+            android:orientation = "horizontal"
+            android:layout_width = "fill_parent"
+            android:layout_height = "50dip"
+            android:layout_alignParentBottom = "true"
+            android:layout_alignParentLeft = "true"
+            android:layout_alignParentStart = "true">
+
+        <Button
+                android:layout_width = "wrap_content"
+                android:layout_height = "fill_parent"
+                android:text = "@string/cancel_button"
+                android:layout_weight = "1"
+                android:id = "@+id/delete_button"
+                android:drawableLeft = "@drawable/ic_action_discard"
+
+                android:theme = "@style/themeButton"
+                />
+
+        <Button
+                android:layout_width = "wrap_content"
+                android:layout_height = "fill_parent"
+                android:text = "@string/ok_button"
+
+                android:layout_weight = "1"
+                android:id = "@+id/save_button"
+                android:drawableLeft = "@drawable/ic_action_accept"
+                android:layout_gravity = "bottom"
+                android:theme = "@style/themeButton"
+                />
+
+    </LinearLayout>
+</RelativeLayout>
