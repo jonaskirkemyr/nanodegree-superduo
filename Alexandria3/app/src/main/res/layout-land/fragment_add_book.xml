@@ -1,0 +1,133 @@
+<FrameLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+             xmlns:tools = "http://schemas.android.com/tools"
+             android:layout_width = "match_parent"
+             android:layout_height = "match_parent"
+             tools:context = "jonask.nano.alexandria3.AddBook">
+
+
+    <LinearLayout android:layout_width = "match_parent"
+                  android:layout_height = "match_parent"
+                  android:orientation = "vertical"
+                  android:layout_marginLeft = "@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin">
+
+        <LinearLayout
+                android:orientation = "horizontal"
+                android:layout_width = "wrap_content"
+                android:id = "@+id/eancontainer"
+                android:layout_height = "wrap_content"
+                android:layout_marginTop = "@dimen/activity_vertical_margin">
+
+            <EditText
+                    android:layout_width = "wrap_content"
+                    android:layout_height = "wrap_content"
+                    android:inputType = "number"
+                    android:minEms = "@integer/ean_width"
+                    android:id = "@+id/ean"
+                    android:saveEnabled = "true"
+                    android:maxLength = "@integer/ean_size"
+                    android:maxLines = "1"
+                    android:hint = "@string/input_hint"/>
+
+            <Button
+                    android:layout_width = "wrap_content"
+                    android:layout_height = "wrap_content"
+                    android:text = "@string/scan_button"
+                    android:id = "@+id/scan_button"
+                    android:theme = "@style/themeButton"/>
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_width = "match_parent"
+                      android:layout_height = "match_parent"
+                      android:orientation = "horizontal">
+
+
+            <LinearLayout android:layout_width = "match_parent"
+                          android:layout_height = "match_parent"
+                          android:orientation = "vertical"
+                          android:layout_weight = "1">
+                <TextView
+                        android:layout_width = "wrap_content"
+                        android:layout_height = "wrap_content"
+                        android:id = "@+id/bookTitle"
+                        android:textSize = "@dimen/head_line"
+                        android:textIsSelectable = "true"
+                        android:textStyle = "bold"
+                        android:layout_marginTop = "@dimen/activity_vertical_margin"
+                        android:paddingRight = "@dimen/activity_horizontal_margin"/>
+
+                <TextView
+                        android:layout_width = "wrap_content"
+                        android:layout_height = "wrap_content"
+                        android:id = "@+id/bookSubTitle"
+                        android:layout_marginTop = "@dimen/activity_vertical_margin"
+                        android:maxLines = "3"
+                        android:ellipsize = "end"
+                        />
+
+                <LinearLayout android:layout_width = "wrap_content"
+                              android:layout_height = "wrap_content"
+                              android:orientation = "horizontal">
+                    <ImageView
+                            android:layout_width = "wrap_content"
+                            android:layout_height = "wrap_content"
+                            android:id = "@+id/bookCover"
+                            android:contentDescription = "@string/book_cover"/>
+
+                    <TextView
+                            android:layout_width = "wrap_content"
+                            android:layout_height = "wrap_content"
+                            android:id = "@+id/authors"
+                            android:layout_marginLeft = "@dimen/activity_horizontal_margin"
+                            android:textSize = "@dimen/small_fontsize"
+                            />
+                </LinearLayout>
+
+
+                <TextView
+                        android:layout_width = "wrap_content"
+                        android:layout_height = "wrap_content"
+                        android:id = "@+id/categories"
+                        android:textSize = "@dimen/small_fontsize"
+                        android:layout_marginTop = "@dimen/activity_vertical_margin"
+                        />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                    android:orientation = "vertical"
+                    android:layout_width = "match_parent"
+                    android:layout_height = "match_parent"
+                    android:layout_weight = "1">
+
+                <Button
+                        android:layout_width = "match_parent"
+                        android:layout_height = "wrap_content"
+                        android:text = "@string/cancel_button"
+                        android:visibility = "invisible"
+                        android:id = "@+id/delete_button"
+                        android:drawableLeft = "@drawable/ic_action_discard"
+
+                        android:theme = "@style/themeButton"
+                        />
+
+                <Button
+                        android:layout_width = "match_parent"
+                        android:layout_height = "wrap_content"
+                        android:text = "@string/ok_button"
+                        android:id = "@+id/save_button"
+                        android:visibility = "invisible"
+                        android:drawableLeft = "@drawable/ic_action_accept"
+                        android:theme = "@style/themeButton"
+                        />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</FrameLayout>
