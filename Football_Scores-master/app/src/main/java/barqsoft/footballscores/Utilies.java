@@ -81,6 +81,12 @@ public class Utilies
             case "West Bromwich Albion" : return R.drawable.west_bromwich_albion_hd_logo;
             case "Sunderland AFC" : return R.drawable.sunderland;
             case "Stoke City FC" : return R.drawable.stoke_city;
+            case "Liverpool FC" : return R.drawable.liverpool;
+            case "Southampton FC" : return R.drawable.southampton_fc;
+            case "Manchester City FC" : return R.drawable.manchester_city;
+            case "Chelsea FC" : return R.drawable.chelsea;
+            case "Swansea City FC" : return R.drawable.swansea_city_afc;
+            case "West Bromwich Albion FC" : return R.drawable.west_bromwich_albion_hd_logo;
             default: return R.drawable.no_icon;
         }
     }
