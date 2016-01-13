@@ -19,6 +19,7 @@
     <string name="quarter_final">Quarter Final</string>
     <string name="semi_final">Semi Final</string>
     <string name="final_text">Final</string>
+    <string name="no_league_found">Not known League Please report</string>
     <string name="share_text">Share</string>
     <string name="about">About</string>
     <string name="title_activity_about">AboutActivity</string>
